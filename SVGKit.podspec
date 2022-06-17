@@ -1,12 +1,12 @@
 Pod::Spec.new do |s|
-  s.name        = 'SVGKit'
+  s.name        = 'SVGKit-Pod'
   s.version     = '3.1.0'
   s.license     = 'MIT'
   s.osx.deployment_target = '10.9'
   s.ios.deployment_target = '5.0'
   s.tvos.deployment_target = '9.0'
   s.summary     = "Display and interact with SVG Images on iOS, using native rendering (CoreAnimation)."
-  s.homepage = 'https://github.com/SVGKit/SVGKit'
+  s.homepage = 'https://github.com/what4u/SVGKit'
   s.author   = { 'Steven Fusco'    => 'github@stevenfusco.com',
                  'adamgit'         => 'adam.m.s.martin@gmail.com',
                  'Kevin Stich'     => 'stich@50cubes.com',
@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
                  'Eric Man'        => 'meric.au@gmail.com',
                  'Matt Rajca'      => 'matt.rajca@me.com',
                  'Moritz Pfeiffer' => 'moritz.pfeiffer@alp-phone.ch' }
-  s.source   = { :git => 'https://github.com/SVGKit/SVGKit.git', :tag => s.version.to_s }
+  s.source   = { :git => 'https://github.com/what4u/SVGKit.git', :tag => s.version.to_s }
   s.source_files = 'Source/*.{h,m}', 'Source/**/*.{h,m}'
   s.exclude_files = 'Source/include/*.h'
   s.private_header_files = 'Source/SVGKDefine_Private.h'
